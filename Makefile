@@ -1,14 +1,14 @@
 
-FRAEMWORKS = -framework OpenGL -framework AppKit
+FRAEMWORKS = -framework OpenGL -framework AppKit -g
 FLAGS = -Werror -Wextra -Wall
 NAME = fdf
 SRC = src/colours_menu.c \
 	src/control.c \
 	src/fdf.c \
 	src/illustration.c \
-	src/mlx_image.c \
 	src/read_map.c \
 	src/utils.c \
+	src/utils2.c \
 	get_next_line/get_next_line.c \
 	get_next_line/get_next_line_utils.c \
 
