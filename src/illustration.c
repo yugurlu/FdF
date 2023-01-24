@@ -75,7 +75,7 @@ void	algorithm(t_fdf *data, float x_e, float y_e)
 	draw(data, x_way, y_way);
 }
 
-void	illustration(t_fdf *data)
+void	dda(t_fdf *data)
 {
 	float	x;
 	float	y;
