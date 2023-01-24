@@ -67,22 +67,22 @@ typedef struct s_fdf
 
 float		m(float number);
 void		menu(t_fdf *data);
-int			closee(t_fdf *data);
+int		closee(t_fdf *data);
 bool		check_map(char *map);
 void		free_all(t_fdf *data);
 void		free_split(char **arr);
 void		illustration(t_fdf *data);
-int			hex_to_decimal(char *hex);
+int		hex_to_decimal(char *hex);
 void		allocate_memory(t_fdf *data);
-int			mx(float number, float number2);
-int			key_target(int key, t_fdf *data);
+int		mx(float number, float number2);
+int		key_target(int key, t_fdf *data);
 void		read_map(t_fdf *data, char *map);
 void		fill_array(t_fdf *data, char **arr);
 void		mlx_image(t_fdf *data, int x, int y);
 bool		ft_error(int error, int ac, char *map);
-void		algorithm(t_fdf *data, float x_e, float y_e);
+void		dda(t_fdf *data, float x_e, float y_e);
 void		colour(t_fdf *data, float z_start, float z_end);
-int			mouse_target(int key, int x, int y, t_fdf *data);
+int		mouse_target(int key, int x, int y, t_fdf *data);
 void		def_colour(t_fdf *data, float z_start, float z_end);
 
 #endif
