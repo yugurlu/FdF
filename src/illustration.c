@@ -89,9 +89,9 @@ void	illustration(t_fdf *data)
 		while (data->width > data->l->l_x_s)
 		{
 			if (data->width - 1 > data->l->l_x_s)
-				algorithm(data, x + 1, y);
+				dda(data, x + 1, y);
 			if (data->height - 1 > data->l->l_y_s)
-				algorithm(data, x, y + 1);
+				dda(data, x, y + 1);
 			data->l->l_x_s++;
 			x++;
 		}
