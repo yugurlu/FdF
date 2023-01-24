@@ -50,7 +50,7 @@ void	position_zoom(t_fdf *data, float x_e, float y_e)
 	data->l->y_e += data->position_y - 75;
 }
 
-void	algorithm(t_fdf *data, float x_e, float y_e)
+void	dda(t_fdf *data, float x_e, float y_e)
 {
 	float	x_way;
 	float	y_way;
@@ -75,7 +75,7 @@ void	algorithm(t_fdf *data, float x_e, float y_e)
 	draw(data, x_way, y_way);
 }
 
-void	dda(t_fdf *data)
+void	illustration(t_fdf *data)
 {
 	float	x;
 	float	y;
