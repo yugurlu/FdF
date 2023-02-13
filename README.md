@@ -30,6 +30,3 @@ Try running the following:
 
 `./fdf maps/test_maps/42.fdf`
 
-`./fdf maps/test_maps/mars.fdf`
-
-`./fdf maps/personal/panama.fdf`
