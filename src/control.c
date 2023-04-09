@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   control.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yugurlu <yugurlu@student.42istanbul.com    +#+  +:+       +#+        */
+/*   By: bahadir yigit <bahadiryigit0307@gmail.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/30 11:56:58 by yugurlu           #+#    #+#             */
-/*   Updated: 2023/01/27 12:14:54 by yugurlu          ###   ########.fr       */
+/*   Updated: 2023/04/09 18:25:50 by bahadir yig      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,21 +49,21 @@ int	mouse_target(int key, int x, int y, t_fdf *data)
 
 int	key_target(int key, t_fdf *data)
 {
-	if ((126 >= key && key >= 123) || key == 53 || key == 19 || key == 18)
+	if ((65364 >= key && key >= 65361) || key == 65307 || key == 50 || key == 49)
 	{
-		if (key == 124)
+		if (key == 65361)
 			data->position_x += 50;
-		else if (key == 123)
+		else if (key == 65363)
 			data->position_x -= 50;
-		else if (key == 126)
+		else if (key == 65364)
 			data->position_y -= 50;
-		else if (key == 125)
+		else if (key == 65362)
 			data->position_y += 50;
-		else if (key == 18)
+		else if (key == 49)
 			data->depth += 0.1;
-		else if (key == 19)
+		else if (key == 50)
 			data->depth -= 0.1;
-		else if (key == 53)
+		else if (key == 65307)
 		{
 			mlx_destroy_image(data->mlx, data->mlx_img->img);
 			mlx_destroy_window(data->mlx, data->mlx_window);
