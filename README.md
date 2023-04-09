@@ -10,7 +10,8 @@ It uses the library miniLibX, developed internally and includes the minimum nece
 Run the following commands:
 
 * To compile
-	- `make`
+	- For MacOS: `make`
+	- For Linux: `make linux`
 * To remove objects:
 	- `make clean`
 * To remove objects and binary file (program):
