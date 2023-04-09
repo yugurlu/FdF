@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   fdf.c                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bahadir yigit <bahadiryigit0307@gmail.c    +#+  +:+       +#+        */
+/*   By: yugurlu <yugurlu@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/22 15:09:51 by yugurlu           #+#    #+#             */
-/*   Updated: 2023/04/06 03:33:11 by bahadir yig      ###   ########.fr       */
+/*   Updated: 2023/04/09 19:39:24 by yugurlu          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,7 @@ void	set_default(t_fdf *data, char **av)
 		program_settings(data, 1600, 900, 12);
 	else
 		program_settings(data, 1920, 1080, 5);
-	ft_printf("%sCreating Illustration...\n", " ");
+	ft_printf("Creating Illustration...\n");
 }
 
 int	main(int ac, char **av)

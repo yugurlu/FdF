@@ -27,7 +27,6 @@ all:
 clean:
 	@make clean -C ./ft_printf
 	@make clean -C ./minilibx_macos
-	@make clean -C ./FdF_linux
 	@echo "$(RED)Cleaning Completed!"
 
 fclean: clean
