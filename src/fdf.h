@@ -3,19 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   fdf.h                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yugurlu <yugurlu@student.42istanbul.com    +#+  +:+       +#+        */
+/*   By: bahadir yigit <bahadiryigit0307@gmail.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/22 15:31:25 by yugurlu           #+#    #+#             */
-/*   Updated: 2023/01/27 12:15:01 by yugurlu          ###   ########.fr       */
+/*   Updated: 2023/04/06 18:02:28 by bahadir yig      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FDF_H
 # define FDF_H
-
 # include "../ft_printf/ft_printf.h"
 # include "../get_next_line/get_next_line.h"
-# include "../minilibx_macos/mlx.h"
+# include "../mlx_linux/mlx.h"
 # include <fcntl.h>
 # include <stdbool.h>
 # include <unistd.h>

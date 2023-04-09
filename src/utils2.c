@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   utils2.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yugurlu <yugurlu@student.42istanbul.com    +#+  +:+       +#+        */
+/*   By: bahadir yigit <bahadiryigit0307@gmail.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/10 13:20:28 by yugurlu           #+#    #+#             */
-/*   Updated: 2023/01/27 11:12:11 by yugurlu          ###   ########.fr       */
+/*   Updated: 2023/04/06 03:25:09 by bahadir yig      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,6 +45,8 @@ int	hex_to_decimal(char *hex)
 			val = hex[i] - 'a' + 10;
 		else if (hex[i] >= 'A' && hex[i] <= 'F')
 			val = hex[i] - 'A' + 10;
+		else
+			val = 0;
 		decimal = decimal * 16 + val;
 		i++;
 	}
